@@ -1,50 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ragul Sankar</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
-    <link rel="stylesheet" href="index.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-
-
-</head>
-
-<body>
+  <body>
+    <img src="./assets/forest-trees-perspective-bright-957024.jpeg" alt="green background" class="background-image">
+    <!-- Navbar Starts -->
     <header>
-        <div id="menu-bars" class="fas fa-bars"></div>
-        <nav class="navbar">
-            <a href="Home">Home</a>
-            <a href="About">About</a>
-            <a href="Portfolio">Portfolio</a>
-            <a href="My Works">My Works</a>
-            <a href="Hackathons">Hackathons</a>
-            <a href="Certificates">Certificates</a>
-            <a href="Contact Me">Contact Me</a>
-        </nav>
+      <div id="menu-bars" class="fas fa-bars"></div>
+      <nav class="navbar">
+        <a href="Home">Home</a>
+        <a href="About">About</a>
+        <a href="Resume">Resume</a>
+        <a href="My Works">My Works</a>
+        <a href="Hackathons">Hackathons</a>
+        <a href="Certifications">Certifications</a>
+        <a href="Contact Me">Contact Me</a>
+      </nav>
     </header>
+    <!-- Navbar Ends -->
+    <!-- Intro Starts -->
     <section class="home" id="home">
-        <div class="content">
-            <img src="./assets/logo.jpg" alt="Photo of Ragul">
-            <h3>Ragul <span>Sankar</span> </h3>
-            <p>I'm a <span class="typed"
-                    data-typed-items="FullStack Web Developer, ReactNative App Developer, Hackathon Enthusiasts"></span>
-            </p>
-            <a href="#aboutme" class="btn">About Me</a>
-        </div>
+    <div id="particles-js"></div>
+      <div class="content">
+        <img src="./assets/logo.jpg" alt="Photo of Ragul" />
+        <h3>Ragul <span>Sankar</span></h3>
+        <p>
+          I'm a
+          <span
+            class="typed"
+            data-typed-items="FullStack Web Developer, ReactNative App Developer, Hackathon Enthusiasts"
+          ></span>
+        </p>
+        <a href="#aboutme" class="btn">Hire Me</a>
+      </div>
     </section>
+    <!-- Intro Ends -->
+    <!-- About Section Starts -->
+    <section class="about" id="about">
+        <h1 class="heading">About <span>Me</span></h1>
+    </section>
+    <!-- About Section Ends -->
 
 
 
 
 
 
-    <script src="vendor/typed.js/typed.js"></script>
+
+    <script src="./vendor/particle.js/particles.min.js"></script>
+    <script src="./vendor/particle.js/app.js"></script>
+    <script src="./vendor/typed.js/typed.js"></script>
     <script src="./script.js"></script>
-
-</body>
 
 </html>

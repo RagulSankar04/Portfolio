@@ -22,7 +22,7 @@ if (typed) {
 
     loop: true,
 
-    typeSpeed: 100,
+    typeSpeed: 70,
 
     backSpeed: 50,
 
