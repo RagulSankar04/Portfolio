@@ -3,6 +3,8 @@
 :root{
     --green:#27ae60;
 }
+
+
 *{
     font-family: 'Nunito', sans-serif;
     padding: 0; margin: 0;
@@ -123,22 +125,32 @@ header .active{
     html{
         font-size: 55%;
     }
+
     body{
         padding-right: 0;
     }
-    header{
-        width: 100%;
-        left: -120%;
+    
+    section{
+        padding:2rem;
     }
-    header .active{
+
+    header{
+        width:100%;
+        left:-120%;
+    }
+
+    header.active{
         left:0%;
     }
+
     #menu-bars{
         display: initial;
     }
+
     header .navbar{
         writing-mode: horizontal-tb;
     }
+
     header .navbar a{
         display: block;
         font-size: 3rem;
@@ -149,20 +161,12 @@ header .active{
     html{
         font-size: 50%;
     }
-    body{
-        padding-right: 0;
+
+    .heading{
+        font-size: 4rem;
     }
-    header{
-        width: 100%;
-    }
-    #menu-bars{
-        display: initial;
-    }
-    header .navbar{
-        writing-mode: horizontal-tb;
-    }
-    header .navbar a{
-        display: block;
-        font-size: 3rem;
+
+    .contact .row form .inputBox input{
+        width:100%;
     }
 }
