@@ -29,3 +29,11 @@ if (typed) {
     backDelay: 2000,
   });
 }
+function myFunction() {
+  var x = document.getElementById("mobNumber");
+  if (x.innerHTML === "+91-7358408137") {
+    x.innerHTML = "+91-**********";
+  } else {
+    x.innerHTML = "+91-7358408137";
+  }
+}
