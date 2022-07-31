@@ -16,8 +16,8 @@
   <header>
     <div id="menu-bars" class="fas fa-bars"></div>
     <nav class="navbar">
-      <a href="Home">Home</a>
-      <a href="About">About</a>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
       <a href="Resume">Resume</a>
       <a href="My Works">My Works</a>
       <a href="Hackathons">Hackathons</a>
@@ -45,7 +45,8 @@
   <section class="about" id="about">
     <h1 class="heading">About <span>Me</span></h1>
     <div class="row">
-      <div class="image"><img src="./assets/about_img.jpg" alt="FUllsize photo">
+      <div class="image">
+        <img src="./assets/about_img.jpg" alt="FUllsize photo">
       </div>
       <div class="content">
         <h1>React Developer and C++ coder</h1>
@@ -57,21 +58,24 @@
         </p>
         <div class="container">
           <div class="box">
-            <p><span>Age: </span>18</p>
-            <p><span>Mail ID: </span>ragulsankar2004@gmail.com</p>
-            <p><span>Degree: </span>B.Tech in Computer Science and Engineering</p>
-            <div>
+            <div class="box-item">
+              <p><span>Age: </span>18</p>
+              <p><span>Mail ID: </span><span
+                  style="color:#222;text-transform: lowercase;">ragulsankar2004@gmail.com</span></p>
+              <p><span>Degree: </span>B.Tech in Computer Science and Engineering</p>
+            </div>
+            <div class="box-item">
               <p class="info-num">
-                <span>mobile Number:</span>
+                <span>mobile Number: </span>
                 <span hidden style="color:#222" id="reveal-text">+91 73584 08137</span>
                 <button class="reveal-btn" id="reveal-btn">Tap to Reveal</button>
               </p>
+              <p><span>Location: </span>Chennai, TamilNadu, India</p>
+              <p><span>Freelance: </span>Available</p>
             </div>
-            <p>location : Chennai, TamilNadu, India</p>
-
           </div>
         </div>
-        <a href="">Download CV</a>
+        <p><a class="download-btn" href="https://example.com" target="_blank">Download CV</a></p>
       </div>
     </div>
   </section>
