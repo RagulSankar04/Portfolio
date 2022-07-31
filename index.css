@@ -201,10 +201,14 @@ header .active{
     color: var(--green);
 }
 
+.info-num {
+    display: flex;
+    align-items: center;
+}
 
-
-
-
+.info-num > span {
+    margin-right: 1rem;
+}
 
 
 
