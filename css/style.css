@@ -252,7 +252,7 @@ header .navbar a:hover{
 .skills .box-container{
     display: flex;
     flex-wrap: wrap;
-    gap:1.5rem;
+    gap: 2rem;
 }
 
 .skills .box-container .box{
